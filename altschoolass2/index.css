@@ -1,0 +1,16 @@
+body {
+  background-color: aliceblue;
+  font-family: "Poppins", serif;
+  padding: 20px 20px;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: black;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

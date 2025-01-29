@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Funnel Display", serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.biography {
+  padding: 20px 20px;
+  background-color: aliceblue;
+}
+.navigation {
+  color: blue;
+}
+.navigation:hover {
+  color: black;
+}
+a {
+  color: blue;
+  text-decoration-color: white;
+}
+
+.quest {
+  text-align: center;
+}
+.text-content {
+  color: rgb(128, 124, 124);
+  font-size: 18px;
+}
+.learn {
+  text-align: center;
+  font-size: 40px;
+}
+.section-1 {
+  display: none;
+}
+.section-2 {
+  padding: 20px;
+  width: 100%;
+  max-width: fit-content;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.policy {
+  color: blue;
+}
+button {
+  background-color: rgb(29, 29, 244);
+  color: white;
+  width: 99%;
+  padding: 15px;
+  border: 1px solid rgb(29, 29, 244);
+  border-radius: 6px;
+}
+button:hover {
+  background-color: rgb(76, 153, 242);
+}
+
+form > div:nth-child(11) {
+  grid-column: span 2;
+}
+input,
+select {
+  height: 40px;
+  border: 1px solid;
+  border-radius: 6px;
+  border-color: inherit;
+  padding: 0 10px;
+}
+input:focus {
+  outline: 0;
+  border-color: rgb(7, 98, 236);
+  box-shadow: 0 0 0 1px rgb(7, 98, 236);
+  color: black;
+}
+select:focus {
+  outline-color: transparent;
+  border-color: rgb(7, 98, 236);
+  box-shadow: 0 0 0 1px rgb(7, 98, 236);
+  color: black;
+}
+.privacy {
+  color: rgb(128, 124, 124);
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-1 {
+    align-content: center;
+    padding: 50px 50px 50px 50px;
+    display: block;
+  }
+  .section-2 {
+    padding: 20px;
+    width: 100%;
+    max-width: fit-content;
+  }
+  .quest {
+    text-align: right;
+  }
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5px;
+    row-gap: 10px;
+    column-gap: 10px;
+  }
+}

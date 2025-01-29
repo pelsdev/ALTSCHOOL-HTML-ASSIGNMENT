@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#audio"> audio </a>
+          </li>
+          <li>
+            <a href="#video"> video </a>
+          </li>
+          <li>
+            <a href="#picture"> picture </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="media">
+      <article>
+        <section class="audio">
+          <h1>
+            <em> My Audio</em>
+          </h1>
+          <audio controls src="./asset/audio/Recording.m4a"></audio>
+        </section>
+      </article>
+      <article>
+        <section class="Video">
+          <h1>
+            <em>My Video</em>
+          </h1>
+          <video
+            controls
+            src="./asset/video/WIN_20250129_11_14_40_Pro.mp4"
+            width="300px"
+          ></video>
+        </section>
+      </article>
+      <article>
+        <section class="pictures">
+          <h1>
+            <em>My Picture</em>
+          </h1>
+          <picture>
+            <img src="./asset/image-large.jpg" width="300px" alt="my-image" />
+            <source
+              srcset="./asset/image-small.jpg"
+              media="(max-width: 600px)"
+            />
+            <source
+              srcset="./asset/image-medium.jpg"
+              media="(max-width: 1200px)"
+            />
+          </picture>
+        </section>
+      </article>
+    </main>
+    <footer><a href="table.html">ALTSchool Courses</a></footer>
+  </body>
+</html>

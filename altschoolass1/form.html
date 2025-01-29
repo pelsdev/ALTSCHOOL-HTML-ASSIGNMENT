@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="section-1">
+        <img
+          src="./altschool2.svg"
+          width="467"
+          height="379"
+          alt="altschool image"
+        />
+        <h1 class="learn">
+          <strong>Learn highly sought after skill without hassle</strong>
+        </h1>
+      </div>
+      <div class="section-2">
+        <header>
+          <h3 class="quest" id="quest">
+            Already an AltSchooler?
+            <a href="https://portal.altschoolafrica.com/auth/login">Sign In!</a>
+          </h3>
+        </header>
+
+        <h2><em>Signup</em></h2>
+        <p class="text-content">
+          Take the next steps to apply at AltSchool Africa
+        </p>
+        <form action="submit" method="post">
+          <div class="form-field">
+            <label for="name">First Name</label>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Enter first name"
+              id="firstname"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="name">Last Name</label>
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Enter last name"
+              id="lastname"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+              id="email"
+            />
+          </div>
+          <div class="form-field">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="" disabled selected>Select Gender</option>
+              <option value="male">male</option>
+              <option value="female">female</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="date" id="dob" />
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="08154387000"
+              id="phone"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="state">Country of Residence</label>
+            <input
+              type="text"
+              name="country"
+              placeholder="Enter your country of residence"
+              id="country"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="state">State/City of Residence</label>
+            <input
+              type="text"
+              name="state"
+              placeholder="Enter your state of residence"
+              id="state"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="password">password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter password"
+              id="password"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="confirmpassword">Cofirm password</label>
+            <input
+              type="password"
+              name="confirmpassword"
+              placeholder="Enter password again"
+              id="conpassword"
+            />
+          </div>
+          <div class="form-field">
+            <label for="hear">How did you hear about us?</label>
+            <select name="channel" id="channel">
+              <option value="" disabled selected>Select channel</option>
+              <option value="twitter">Twitter</option>
+              <option value="facebook">Facebook</option>
+              <option value="linkedln">Linkedln</option>
+              <option value="friend">Friend</option>
+              <option value="whatsapp">WhatsApp</option>
+              <option value="instagram">Instagram</option>
+              <option value="board">Bill Board</option>
+              <option value="officer">Sales officer</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </form>
+        <div>
+          <p class="privacy">
+            By clicking continue, i agree to
+            <a class="policy" href="#">Terms of Use</a> and acknowledge that i
+            have read the
+            <a class="policy" href="#">Privacy Policy.</a>
+          </p>
+
+          <button type="submit">Signup</button>
+        </div>
+        <nav class="navigation">
+          <ul>
+            <li>
+              <a href="./index.html">About Page</a>
+            </li>
+            <li>
+              <a href="#quest">Go to top</a>
+            </li>
+          </ul>
+        </nav>
+        <footer>©2024 pelumiajiteru@gmail.com. All rights reserved.</footer>
+      </div>
+    </section>
+  </body>
+</html>
