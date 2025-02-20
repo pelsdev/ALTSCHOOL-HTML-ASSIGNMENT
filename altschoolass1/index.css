@@ -98,7 +98,18 @@ select:focus {
 .authorization {
   text-align: center;
 }
-
+.social-media {
+  display: flex;
+  gap: 5px;
+  justify-self: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.social-media > img {
+  width: 1rem;
+  height: 1rem;
+}
 @media only screen and (min-width: 768px) {
   .container {
     width: 100%;
